@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.d1{
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: rgba(243, 160, 58, 0.705);                                                             */
+    padding: 10px;
+   
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(251, 206, 150, 0.705);
+    text-align: center;
+    letter-spacing: 15px;
+    padding: 10px;
+}
+.h-navbar{
+    width: 100%;
+    height: 10%;
+    /* background-color: rgba(255, 228, 196, 0.705); */
+    background-color: transparent;
+    
+
+}
+.h-ul-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+
+
+}
+.h-li-list{
+    list-style: none;
+
+
+}
+
+.h-anchor{
+     text-decoration: none;
+     color: black;
+     /* position: fixed; */
+}
+
+.h-anchor:hover{
+    color: deeppink;
+    /* font-size: large; */
+    
+}
+.cont{
+    width: 100%;
+    /* height: 80%; */
+    /* background-color: lightgrey; */
+  
+}
+   
+   /* SKINCARE */
+
+
+   .skincare-adv{
+       width:100% ;
+       height: 20%;
+       background-color:lightpink;
+       margin-top: 10px;
+      
+   }
+   .sunscreen-adv{
+    width: 100%;
+    height: 40%;
+   }
+
+   .sunscreen-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   }
+
+   .suns-box1{
+       width: 15%;
+       height: 350px ;
+       border: 1px solid lightgrey;
+       margin-top: 10px;
+       margin-left: 10px;
+       transition-duration: 1s;
+       
+   }
+   .suns-box1:hover{
+          transform: scale(1.1,1.1);
+   }
+
+   .mois-adv{
+    width: 100%;
+    height: 20%;
+   }
+
+   .mois-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+   }
+
+   .mois-box{
+            width: 15%;
+            height: 400px;
+            border: 1px solid lightgrey;
+            margin-top: 10px;
+             margin-left: 10px;
+             transition-duration: 1s;
+
+   }
+   .mois-box:hover{
+    transform: scale(1.1,1.1);
+}
+
+   /* facewash */
+
+   .facewash-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   }
+
+   .facewash-box{
+    width: 15%;
+    height: 400px;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+     margin-left: 10px;
+     transition-duration: 1s;
+   }
+
+   .facewash-box:hover{
+    transform: scale(1.1,1.1);
+   }
+
+
+
+
+            /* HAIRCARE */
+
+  .haircare-adv{
+    width: 100%;
+  }
+
+  .SHAMPOO-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+  }
+
+  .shampoo-box{
+    width: 15%;
+    height: 440PX;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+     margin-left: 10px;
+     transition-duration: 1s;
+  }
+
+  .shampoo-box:hover{
+    transform: scale(1.1,1.1);
+   }
+  
+   
+
+  .CONDITIONER-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+  }
+
+  .CONDITIONER-box{
+    width: 15%;
+    height: 440PX;
+    border:1px solid lightgrey;
+    margin-top: 10px;
+     margin-left: 10px;
+     transition-duration: 1s;
+ }
+
+ .CONDITIONER-box:hover{
+    transform: scale(1.1,1.1);
+   }
+
+ .serum-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+ }
+
+ .serum-box{
+    width: 15%;
+    height: 440PX;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+     margin-left: 10px;
+     transition-duration: 1s;
+ }
+
+ 
+ .serum-box:hover{
+    transform: scale(1.1,1.1);
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+                 /* EYECARE */
+
+
+       .circle-main{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 50px;
+        
+       }   
+       
+       .circle-1{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 50%;
+       
+       }
+
+       .circle-2{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 50%;
+        
+       }
+
+       .circle-3{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 50%;
+       }
+
+       .circle-4{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 50%;
+       }
+
+       .eyeshadow-card{
+              width: 100%;
+              display: flex;
+               flex-direction: row;
+              justify-content: space-around;
+              
+       }
+
+       .eyeshadow-box{
+             width: 20%;
+             height: 440px;
+             border: 1px solid lightgray;
+            
+       } 
+
+
+
+       .liner-card{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       
+       }
+
+       .liner-box{
+        width: 20%;
+        height: 440px;
+        border: 1px solid lightgrey;
+        
+       }
+
+       /* CART */
+
+       .cart{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+
+
+      /* LOGIN */
+
+
+     
+
+
+.login{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+
+  .main-login{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(149, 135, 230); */
+    background-image: url(../../Downloads/login.avif);
+    padding: 30px;
+    background-size: cover;
+  }
+  
+  .carousel-item{
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    padding: 10px;
+    margin-top: 20px;
+    
+  }
+  .log-cart{
+    height: 60%;
+    width: 90%;
+    background-color: black;
+    margin: 20px;
+    padding: 30px;
+    
+  }
+
+
+
+
+  @media (min-width:1024px) {
+      
+    .login{
+      height: 100%;
+      width: 100%;
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+   
+  
+    .main-login{
+      height: 100%;
+      width: 40%;
+      /* background-color: rgb(149, 135, 230); */
+      background-image: url(../../Downloads/login.avif);
+      padding: 30px;
+      background-size: cover;
+    }
+    
+    .carousel-item{
+      /* border: 1px solid black; */
+      /* border-radius: 50%; */
+      padding: 10px;
+      margin-top: 20px;
+      
+    }
+    .log-cart{
+      height: 60%;
+      width: 90%;
+      background-color: black;
+      margin: 20px;
+      
+    }
+  }
+
+
+
+
+
+
+
+
+  /*---------------------- FOOTER ----------------------*/
+
+
+
+  .footer{
+    width: 100%;
+    /* height: 30%; */
+    background-color:lightgray;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .column-1{
+    width: 25%;
+    height: 100%;
+    display: none;
+    /* border: 1px solid white; */
+  }
+
+  .column-2{
+    width: 25%;
+    height: 100%;
+    display: none;
+    /* border: 1px solid white; */
+  }
+
+  .column-3{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid white; */
+  }
+
+  .column-4{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid white; */
+  }
+
+  .footer-nav{
+       padding: 20px;
+  }
+
+ 
+
+  .footer-li{
+           list-style: none;
+  }
+
+  .footer-anker{
+        text-decoration: none;
+        color: black;
+  }
+
+
+
+  /* FOOTER LAPTOP  */
+
+  @media (min-width:1024px) {
+
+    
+  .footer{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .column-1{
+    width: 25%;
+    height: 100%;
+    display: block;
+    /* border: 1px solid white; */
+  }
+
+  .column-2{
+    width: 25%;
+    height: 100%;
+    display: block;
+    /* border: 1px solid white; */
+  }
+
+  .column-3{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid white; */
+  }
+
+  .column-4{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid white; */
+  }
+
+  .footer-nav{
+       padding: 20px;
+  }
+
+ 
+
+  .footer-li{
+           list-style: none;
+  }
+
+  .footer-anker{
+        text-decoration: none;
+        color: white;
+  }
+    
+  }
+
+
+
+  
