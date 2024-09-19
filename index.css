@@ -97,6 +97,7 @@ header{
    }
    .suns-box1:hover{
           transform: scale(1.1,1.1);
+          /* border: 2px solid black; */
    }
 
    .mois-adv{
@@ -175,7 +176,8 @@ header{
   }
 
   .shampoo-box:hover{
-    transform: scale(1.1,1.1);
+    /* transform: scale(1.1,1.1); */
+    border: 3px solid black;
    }
   
    
@@ -198,7 +200,8 @@ header{
  }
 
  .CONDITIONER-box:hover{
-    transform: scale(1.1,1.1);
+    /* transform: scale(1.1,1.1); */
+    border: 3px solid black;
    }
 
  .serum-card{
@@ -220,7 +223,8 @@ header{
 
  
  .serum-box:hover{
-    transform: scale(1.1,1.1);
+    /* transform: scale(1.1,1.1); */
+    border: 3px solid black;
    }
 
 
